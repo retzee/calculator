@@ -91,8 +91,7 @@ function App() {
         setOutputResult(0);
       }
       else if(keyCategory === 5){
-        // . DOT
-        
+        // . DOT Button
       }
     }
   }
