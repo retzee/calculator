@@ -2,7 +2,7 @@ import React from "react";
 
 import styles from './Output.module.css';
 
-const Output = (props) => {
+export default Output = (props) => {
     return (
         <div className={styles.calculator__output_holder}>
                 <div className={styles.calculator__output}>
@@ -13,4 +13,4 @@ const Output = (props) => {
     );
 }
 
-export default Output;
+//export default Output;
