@@ -6,9 +6,7 @@ const extractNumFromString = (str) => {
             if(numbers.length > 0){
                 return numbers;
             }
-            return;
         }
-        return;
     }
     return;
 }
