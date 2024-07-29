@@ -20,9 +20,7 @@ const extractOperatorFromString = (str) => {
             if(operators.length > 0){
                 return operators;
             }
-            return;
         }
-        return;
     }
     return;
 }
