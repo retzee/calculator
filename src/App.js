@@ -41,7 +41,7 @@ function App() {
     }
     else {
       if(outputString.length === 0){
-        return; // Number must come first for every computation
+        return; // Valid Number between 1-9 must come first for every computation
       }
 
       if(keyCategory === 2){
