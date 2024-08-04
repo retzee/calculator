@@ -69,7 +69,7 @@ function App() {
         }    
       }
       else if(keyCategory === 3){
-        //EQUAL SIGN
+        //EQUAL SIGN PRESSED
           if(lastCharCategory === 1){
             const outputExtracted = outputStringExtraction(2);
             if(outputExtracted){
