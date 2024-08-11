@@ -51,7 +51,7 @@
 
 .calculator__key__clear {
   background: hsl(7, 73%, 49%);
-  color: #000000;
+  color: #000;
 }
 
 .calculator__key__dot {
