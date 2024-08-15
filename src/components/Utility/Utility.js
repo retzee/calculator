@@ -17,7 +17,7 @@ const extractOperatorFromString = (str) => {
         const operators = str.match(/[^\d \.]/g);
         if(operators){
             if(operators.length > 0){
-				//number valid
+				//extracted operator valid
                 return operators;
             }
         }
