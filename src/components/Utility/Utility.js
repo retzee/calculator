@@ -4,7 +4,7 @@ const extractNumFromString = (str) => {
         const numbers = str.match(/\d+\.?\d*/g);
         if(numbers){
             if(numbers.length > 0){
-				//number valid
+				//extracted number is valid
                 return numbers;
             }
         }
