@@ -12,6 +12,7 @@ const extractNumFromString = (str) => {
     return;
 }
 
+// extract operator from string character
 const extractOperatorFromString = (str) => {
     if(str.length > 0){
         const operators = str.match(/[^\d \.]/g);
