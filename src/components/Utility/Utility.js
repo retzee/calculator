@@ -1,4 +1,4 @@
-
+// extract number from string character
 const extractNumFromString = (str) => {
     if(str.length > 0){
         const numbers = str.match(/\d+\.?\d*/g);
