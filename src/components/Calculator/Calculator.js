@@ -1,9 +1,9 @@
 import React from "react";
 
-import styles from './Calculator.module.css';
+import classes from './Calculator.module.css';
 
 export default Calculator = (props) => {
     return (
-        <div className={styles.calculator}>{props.children}</div>
+        <div className={classes.calculator}>{props.children}</div>
     );
 }
