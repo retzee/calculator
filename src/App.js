@@ -6,8 +6,8 @@ import {numberList, operatorList} from "./components/ButtonWrap/ButtonArray";
 import {extractNumFromString, extractOperatorFromString} from "./components/Utility/Utility";
 
 function App() {
-  const [outputString, setOutputString] = useState('');
-  const [outputResult, setOutputResult] = useState(0);
+  const [outputString, setOutputString] = useState(''); 
+  const [outputResult, setOutputResult] = useState(0); //state for result output
 
   const saveKeyPressed = (keyValue, keyCategory) => {
     keyCategory = Number(keyCategory);
