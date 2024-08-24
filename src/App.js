@@ -19,7 +19,7 @@ function App() {
     let lastCharCategory = outputStrLastCharCategory();
     
     if(keyCategory === 1){
-      // NUMBERS
+      // Number keypress
       keyValue = Number(keyValue);
       
       if(outputString){
