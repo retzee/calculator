@@ -46,7 +46,7 @@ function App() {
       }
 
       if(keyCategory === 2){
-        // OPERATORS
+        // Operator kepress
         if(keyCategory === lastCharCategory){
           return;
         }
