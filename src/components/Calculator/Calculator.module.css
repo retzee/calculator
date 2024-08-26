@@ -8,3 +8,8 @@
     overflow: hidden;
     color: hsl(202, 11%, 29%);
 }
+
+.calculator_btn {
+	width: 100px;
+	color: #3D59AB;
+}
