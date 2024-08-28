@@ -106,7 +106,7 @@ function App() {
       const num2 = Number(operands[1]);
 
       if(operator[0] === '+'){
-        computed = num1 + num2;
+        computed = num1 + num2; // Addition computation
       }
       else if(operator[0] === '-'){
           computed = num1 - num2;
