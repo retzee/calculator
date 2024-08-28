@@ -46,7 +46,7 @@ function App() {
       }
 
       if(keyCategory === 2){
-        // Operator kepress
+        // Operator key was pressed
         if(keyCategory === lastCharCategory){
           return;
         }
