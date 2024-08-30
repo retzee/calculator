@@ -109,7 +109,7 @@ function App() {
         computed = num1 + num2; // Addition computation
       }
       else if(operator[0] === '-'){
-          computed = num1 - num2;
+          computed = num1 - num2; // Subtraction computation 
       }
       else if(operator[0] === 'x'){
           computed = num1 * num2;
