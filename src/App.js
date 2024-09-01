@@ -115,7 +115,7 @@ function App() {
           computed = num1 * num2; // Multiplication computation 
       }
       else if(operator[0] === '/'){
-          computed = num1 / num2;
+          computed = num1 / num2; // Division computation 
       }
 
       setOutputResult(computed);
