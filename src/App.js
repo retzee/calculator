@@ -118,7 +118,7 @@ function App() {
           computed = num1 / num2; //Division computation 
       }
 
-      setOutputResult(computed);
+      setOutputResult(computed); // Output result of computation
     }
     return computed;
   }
