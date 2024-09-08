@@ -17,7 +17,7 @@ const ButtonWrap = (props) => {
                     let classValue = '';
                     let getBtnCategory = '';
 	
-					//Loop through all keys
+					//Loop through all operator keys
                     if( operatorList.includes(element) ){
                         classValue = `${styles.calculator__key} ${styles.calculator__key__operator}`;
                         getBtnCategory = 2;
