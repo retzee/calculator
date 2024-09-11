@@ -122,7 +122,8 @@ function App() {
     }
     return computed;
   }
-
+	
+  Extract either number or operator
   const outputStringExtraction = (toExtract) => {
     if(outputString.length !== 0){
       const outputStr = outputString;
