@@ -106,16 +106,16 @@ function App() {
       const num2 = Number(operands[1]);
 
       if(operator[0] === '+'){
-        computed = num1 + num2; //Addition computation
+        computed = num1 + num2; //Addition operator computation
       }
       else if(operator[0] === '-'){
-          computed = num1 - num2; //Subtraction computation 
+          computed = num1 - num2; //Subtraction operator computation 
       }
       else if(operator[0] === 'x'){
-          computed = num1 * num2; //Multiplication computation 
+          computed = num1 * num2; //Multiplication operator computation 
       }
       else if(operator[0] === '/'){
-          computed = num1 / num2; //Division computation 
+          computed = num1 / num2; //Division operator computation 
       }
 
       setOutputResult(computed); // Output result of computation
