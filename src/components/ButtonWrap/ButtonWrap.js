@@ -7,7 +7,7 @@ const ButtonWrap = (props) => {
     const sendKeyPress = (event) => {
         const keyPressed = event.target.innerHTML;
         const btnCategory = event.target.value;
-        props.onKeyPress(keyPressed, btnCategory); //pass props up
+        props.onKeyPress(keyPressed, btnCategory);
     }
 
     return (
