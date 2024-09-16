@@ -87,7 +87,7 @@ function App() {
           }
       }
       else if(keyCategory === 4){
-        // AC : CLEAR ALL OUTPUT ON SCREEN
+        // AC : CLEAR OUTPUT ON SCREEN
         setOutputString('');
         setOutputResult(0);
       }
