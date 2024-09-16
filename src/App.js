@@ -42,7 +42,7 @@ function App() {
     else {
       if(outputString.length === 0){
         // Reject Key Pressed
-		return; //Strictly Valid Number between 1-9 must come first for every computation
+		return; //for every computation, must be Valid Number between 1-9 must come first 
       }
 
       if(keyCategory === 2){
