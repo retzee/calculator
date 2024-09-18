@@ -13,7 +13,7 @@ function App() {
     keyCategory = Number(keyCategory);
     
     if(!outputString && outputResult){
-      setOutputResult(0); //Reset Output Result to zero after a computation has been completed & displayed
+      setOutputResult(0); //Reset Output Result to zero after completed computation
     }
 
     let lastCharCategory = outputStrLastCharCategory();
