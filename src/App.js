@@ -8,7 +8,7 @@ import {extractNumFromString, extractOperatorFromString} from "./components/Util
 function App() {
   const [outputString, setOutputString] = useState(''); //get state for string output
   const [outputResult, setOutputResult] = useState(0); //get state for result output
-  const [getCompute, setCompute] = useState(0);
+  const [getCompute, setCompute] = useState(0); // testing compute
 
   const saveKeyPressed = (keyValue, keyCategory) => {
     keyCategory = Number(keyCategory);
