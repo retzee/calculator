@@ -24,7 +24,7 @@ function App() {
       
       if(outputString){
         if(keyCategory === lastCharCategory){
-          appendToOutputString(keyValue);
+          appendToOutputString(keyValue); // append data to Output
         }
         else{
           appendToOutputString(' '+keyValue);
