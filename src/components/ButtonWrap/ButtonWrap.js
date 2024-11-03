@@ -6,7 +6,7 @@ import {btnList, operatorList} from "./ButtonArray";
 const ButtonWrap = (props) => {
     const sendKeyPress = (event) => {
         const keyPressed = event.target.innerHTML; //get key pressed
-        const btnCategory = event.target.value; //get button category
+        const btnCategory = event.target.value; //get button category value
         props.onKeyPress(keyPressed, btnCategory);
     }
 
