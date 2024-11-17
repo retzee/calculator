@@ -43,8 +43,8 @@ const ButtonWrap = (props) => {
 
                     return (
                         <Button
-                            id={index}
-                            key={index}
+                            id={ind}
+                            key={ind}
                             value={element}
                             className={classValue}
                             onClick={sendKeyPress}
