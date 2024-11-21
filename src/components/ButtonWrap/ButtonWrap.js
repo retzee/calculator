@@ -13,7 +13,7 @@ const ButtonWrap = (props) => {
     return (
         <div className={styles.calculator__keys}>
             {
-                btnList.map((element, ind) => {
+                btnList.map((element, index) => {
                     let classValue = '';
                     let getBtnCategory = '';
 	
