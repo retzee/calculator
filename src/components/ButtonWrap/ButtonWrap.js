@@ -43,7 +43,7 @@ const ButtonWrap = (props) => {
 
                     return (
                         <Button
-                            id={ind}
+                            id={index}
                             key={ind}
                             value={element}
                             className={classValue}
