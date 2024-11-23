@@ -98,7 +98,7 @@ function App() {
   }
   
   const computeHandler = () => {
-    let computed = 0;    
+    let computedValue = 0;    
     if(outputString.length !== 0){
       const operands = outputStringExtraction(1);
       const operator = outputStringExtraction(2);
@@ -106,7 +106,7 @@ function App() {
       const num2 = Number(operands[1]);
 
       if(operator[0] === '+'){
-        computed = num1 + num2; //Addition operator computation
+        computedValue = num1 + num2; //Addition operator computation
       }
       else if(operator[0] === '-'){
           computed = num1 - num2; //Subtraction operator computation 
