@@ -109,10 +109,10 @@ function App() {
         computedValue = num1 + num2; //Addition operator computation
       }
       else if(operator[0] === '-'){
-          computed = num1 - num2; //Subtraction operator computation 
+          computedValue = num1 - num2; //Subtraction operator computation 
       }
       else if(operator[0] === 'x'){
-          computed = num1 * num2; //Multiplication operator computation 
+          computedValue = num1 * num2; //Multiplication operator computation 
       }
       else if(operator[0] === '/'){
           computed = num1 / num2; //Division operator computation 
