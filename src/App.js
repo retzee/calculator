@@ -120,7 +120,7 @@ function App() {
 
       setOutputResult(computedValue); // Output result of computation
     }
-    return computed;
+    return computedValue;
   }
 	
   Extract either number or operator
