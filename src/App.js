@@ -115,10 +115,10 @@ function App() {
           computedValue = num1 * num2; //Multiplication operator computation 
       }
       else if(operator[0] === '/'){
-          computed = num1 / num2; //Division operator computation 
+          computedValue = num1 / num2; //Division operator computation 
       }
 
-      setOutputResult(computed); // Output result of computation
+      setOutputResult(computedValue); // Output result of computation
     }
     return computed;
   }
