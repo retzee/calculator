@@ -32,11 +32,11 @@ const ButtonWrap = (props) => {
                             getBtnCategory = 4;
                         }
                         else if(element === "."){
-                            classValue = `${styles.calculator__key} ${styles.calculator__key__dot}`;
+                            classValue = `${classes.calculator__key} ${styles.calculator__key__dot}`;
                             getBtnCategory = 5;
                         }
                         else{
-                            classValue = `${styles.calculator__key}`;
+                            classValue = `${classes.calculator__key}`;
                             getBtnCategory = 1;
                         }
                     }
