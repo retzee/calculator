@@ -1,6 +1,6 @@
 import React  from "react";
 import Button from "../Button/Button";
-import styles from "./ButtonWrap.module.css";
+import classes from "./ButtonWrap.module.css";
 import {btnList, operatorList} from "./ButtonArray";
 
 const ButtonWrap = (props) => {
@@ -23,7 +23,7 @@ const ButtonWrap = (props) => {
                         getBtnCategory = 2;
                     }
                     else if(element === "="){
-                        classValue = `${styles.calculator__key} ${styles.calculator__key__enter}`;
+                        classValue = `${styles.calculator__key} ${classes.calculator__key__enter}`;
                         getBtnCategory = 3;
                     }
                     else{
