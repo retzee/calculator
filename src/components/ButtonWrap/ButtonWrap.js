@@ -19,7 +19,7 @@ const ButtonWrap = (props) => {
 	
 					//Loop through all operator keys to get data
                     if( operatorList.includes(element) ){
-                        classValue = `${styles.calculator__key} ${styles.calculator__key__operator}`;
+                        classValue = `${classes.calculator__key} ${classes.calculator__key__operator}`;
                         getBtnCategory = 2;
                     }
                     else if(element === "="){
