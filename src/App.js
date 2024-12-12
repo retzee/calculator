@@ -97,6 +97,7 @@ function App() {
     }
   }
   
+  // Handle all Computation input
   const computeHandler = () => {
     let computedValue = 0;    
     if(outputString.length !== 0){
