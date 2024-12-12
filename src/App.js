@@ -137,6 +137,7 @@ function App() {
     return;
   }
   
+  // Append string to Output screen
   const appendToOutputString = (keyValue) => {
     let outputChar = outputString;
     outputChar += keyValue;
