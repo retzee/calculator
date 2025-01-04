@@ -124,7 +124,7 @@ function App() {
     return computedValue;
   }
 	
-  //Extract either number or operator
+  //Extract either number or operator from string
   const outputStringExtraction = (toExtract) => {
     if(outputString.length !== 0){
       const outputStr = outputString;
