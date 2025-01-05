@@ -135,7 +135,7 @@ function App() {
         return extractOperatorFromString(outputStr);
       }
     }
-    return;
+    return false;
   }
   
   // Append string to Output screen
