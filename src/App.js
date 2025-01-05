@@ -169,7 +169,7 @@ function App() {
         return 1;
       }
       else{
-        return;
+        return false;
       }
     }    
   }
