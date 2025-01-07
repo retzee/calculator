@@ -1,6 +1,6 @@
 import React  from "react";
 import Button from "../Button/Button";
-import classes from "./ButtonWrap.module.css";
+import styles from "./ButtonWrap.module.css";
 import {btnList, operatorList} from "./ButtonArray";
 
 const ButtonWrap = (props) => {
