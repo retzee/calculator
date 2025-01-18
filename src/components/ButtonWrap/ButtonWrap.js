@@ -36,7 +36,7 @@ const ButtonWrap = (props) => {
                             getBtnCategory = 5;
                         }
                         else{
-                            classValue = `${classes.calculator__key}`;
+                            classValue = `${styles.calculator__key}`;
                             getBtnCategory = 1;
                         }
                     }
