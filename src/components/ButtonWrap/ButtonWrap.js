@@ -46,7 +46,7 @@ const ButtonWrap = (props) => {
                             id={index}
                             key={index}
                             value={element}
-                            className={classValue}
+                            className={className}
                             onClick={sendKeyPress}
                             btnCategory={getBtnCategory}
                         />
