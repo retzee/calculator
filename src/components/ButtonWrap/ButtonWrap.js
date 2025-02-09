@@ -28,7 +28,7 @@ const ButtonWrap = (props) => {
                     }
                     else{
                         if(element === "AC"){
-                            className = `${classes.calculator__key} ${styles.calculator__key__clear}`;
+                            className = `${classes.calculator__key} ${classes.calculator__key__clear}`;
                             getBtnCategory = 4;
                         }
                         else if(element === "."){
