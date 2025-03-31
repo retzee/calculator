@@ -1,6 +1,6 @@
 import React  from "react";
 import Button from "../Button/Button";
-import classes from "./ButtonWrap.module.css";
+import styles from "./ButtonWrap.module.css";
 import {btnList, operatorList} from "./ButtonArray";
 
 const ButtonWrap = (props) => {
@@ -11,7 +11,7 @@ const ButtonWrap = (props) => {
     }
 
     return (
-        <div className={classes.calculator__keys}>
+        <div className={styles.calculator__keys}>
             {
                 btnList.map((element, index) => {
                     let classValue = '';
